@@ -120,3 +120,7 @@ will reach them; after sunset it shows tomorrow. Optional high and low
 temperature in Celsius or Fahrenheit. Sun and moon always stay in front of
 the clouds. Weather data by Open-Meteo.com, no API key needed. Weather is
 off by default - turn it on in the settings.
+
+## License
+
+MIT License, see [LICENSE](LICENSE).
