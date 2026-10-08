@@ -1,0 +1,78 @@
+{
+    "author": "Axel",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [
+        "pebble-app",
+        "watchface"
+    ],
+    "name": "solararc",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Solar & Moon Arc",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "LATITUDE",
+            "SUN_DECL",
+            "SUN_HA",
+            "MOON_DECL",
+            "MOON_HA",
+            "MOON_SHOW",
+            "SUNRISE_MIN",
+            "SUNSET_MIN",
+            "CIVIL_DAWN_MIN",
+            "CIVIL_DUSK_MIN",
+            "NAUTICAL_DAWN_MIN",
+            "NAUTICAL_DUSK_MIN",
+            "ASTRO_DAWN_MIN",
+            "ASTRO_DUSK_MIN",
+            "GOLDEN_RISE_MIN",
+            "GOLDEN_SET_MIN",
+            "REQUEST_UPDATE",
+            "REQUEST_DATE",
+            "USE_FIXED_LOC",
+            "FIXED_LAT",
+            "FIXED_LON",
+            "MOON_RISE_MIN",
+            "MOON_SET_MIN",
+            "AUTO_CYCLE_TEXT_COLOR",
+            "SHOW_DATE",
+            "AHEAD_OF_TIME",
+            "TIME_AT_TOP",
+            "TURBINE_ANIM",
+            "HIGH_CONTRAST",
+            "MOON_PHASE",
+            "MOON_ILLUM",
+            "MOON_WAXING",
+            "MORE_SAT",
+            "WX_MODE",
+            "WX_SHOW_TEMP",
+            "WX_FAHRENHEIT",
+            "WX_START",
+            "WX_HOURS",
+            "WX_WIND",
+            "WX_TEMPS",
+            "REQUEST_WEATHER"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "baacca62-2388-4c4b-9a83-189391a7982c",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.2.0"
+}

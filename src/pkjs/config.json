@@ -1,0 +1,156 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Sun &amp; Moon Arc"
+  },
+  {
+    "type": "text",
+    "defaultValue": "Sun and moon are shown at their true altitude angle above the horizon."
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Location"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "USE_FIXED_LOC",
+        "label": "Use fixed location",
+        "defaultValue": false
+      },
+      {
+        "type": "input",
+        "messageKey": "FIXED_LAT",
+        "label": "Latitude",
+        "attributes": {
+          "placeholder": "53.75",
+          "type": "number",
+          "step": "any"
+        }
+      },
+      {
+        "type": "input",
+        "messageKey": "FIXED_LON",
+        "label": "Longitude",
+        "attributes": {
+          "placeholder": "9.65",
+          "type": "number",
+          "step": "any"
+        }
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Display"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "TIME_AT_TOP",
+        "label": "Show time at top",
+        "description": "Moves the time up into the sky.",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "AUTO_CYCLE_TEXT_COLOR",
+        "label": "Auto cycle text color",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "HIGH_CONTRAST",
+        "label": "High contrast time & date",
+        "description": "Bold outlined text, dark on light by day and light on dark at night, for easier reading. Overrides the auto text color.",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_DATE",
+        "label": "Show date",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "MOON_SHOW",
+        "label": "Show moon",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "MOON_PHASE",
+        "label": "Show moon phase",
+        "description": "Draws the illuminated moon shape instead of a plain disc.",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "AHEAD_OF_TIME",
+        "label": "Run sun & moon ahead of time",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "TURBINE_ANIM",
+        "label": "Animate wind turbine",
+        "description": "Spins the turbine on every minute change.",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "MORE_SAT",
+        "label": "Vivid sky colors",
+        "description": "Boosts saturation for daytime and twilight sky — deeper blues, stronger oranges. Night stays unchanged.",
+        "defaultValue": false
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Weather"
+      },
+      {
+        "type": "select",
+        "messageKey": "WX_MODE",
+        "label": "Weather",
+        "description": "Clouds grey the sky and the wind drives the turbine. With the forecast, clouds sit on the sun's path at the hour the sun will reach them; after sunset it shows tomorrow. The hourly view shows the previous, current and next hour side by side, at the top of the sky or below the date if the time is at the top. Sun and moon always stay in front.",
+        "defaultValue": "0",
+        "options": [
+          { "label": "Off", "value": "0" },
+          { "label": "Current sky and wind", "value": "1" },
+          { "label": "Plus forecast on the sun path", "value": "2" },
+          { "label": "Plus last, current and next hour", "value": "3" }
+        ]
+      },
+      {
+        "type": "toggle",
+        "messageKey": "WX_SHOW_TEMP",
+        "label": "Show high / low temperature",
+        "description": "Shown in the date line, or in its place if the date is off. Needs weather turned on.",
+        "defaultValue": false
+      },
+      {
+        "type": "toggle",
+        "messageKey": "WX_FAHRENHEIT",
+        "label": "Fahrenheit",
+        "defaultValue": false
+      },
+      {
+        "type": "text",
+        "defaultValue": "Weather data by Open-Meteo.com, updated hourly."
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]
